@@ -25,8 +25,10 @@ function BabyNames({ babyList }) {
                     margin: "3.2px",
                     width: "fit-content",
                     backgroundColor: color,
-                    textAlign: "center"
-                  }}
+                    textAlign: "center",
+                    border: "ridge",
+                    borderRadius: "5px"
+                   }}
                   key={babyName.id}
                   onClick={favouriteBaby}
                 >
