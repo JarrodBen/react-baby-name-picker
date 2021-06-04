@@ -1,3 +1,8 @@
+//importing files
+import React, { useState } from "react"
+import BabyNames from "./BabyNames"
+import SearchBar from "./SearchBar"
+import { BabyNamesData } from "./BabyNameData"
 import logo from './logo.svg';
 import './App.css';
 
